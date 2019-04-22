@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "config_id": "dev",
+        "host": "127.0.0.1",
+        "port": 5000,
+        "logLevel": "debug",
+        "secretKey": "!_10\\/3_64|\\/|35",
+        "sessionKey": "connect.sid",
+        "appName": "jEngine",
+        "sendRate": 60,
+        "cyclesPerSecond": 60,
+        "playerTimeout": 5
+    },
+    "prod": {
+        "config_id": "prod",
+        "port": 80,
+        "logLevel": "warning"
+    }
+}
